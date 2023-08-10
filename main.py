@@ -36,7 +36,6 @@ async def send_sticker(message: types.Message):
 # Sends random photo
 @dp.message_handler(commands=['photo'])
 async def send_photo(message: types.Message):
-    # photo_url = 'https://source.unsplash.com/user/wsanter'
     await bot.send_photo(message.from_user.id, photo=random.choice(photos_arr))
 
 
