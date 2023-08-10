@@ -1,4 +1,4 @@
 
-# Aiogram bot
+# Aiogram Telegram bot
 
 Bot with some commmands.
